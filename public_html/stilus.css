@@ -40,3 +40,16 @@ main article:nth-child(5){
 }
 
 header, nav {order: -10;}
+
+nav li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+nav, nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav a{text-decoration: none;}
